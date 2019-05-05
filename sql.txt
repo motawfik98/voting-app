@@ -1,0 +1,12 @@
+added statements to add initial data to the database
+
+poll := Poll{Name:"Angular",Topic:"Awesome Angular", Src:"https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/angular-logo.png", Upvotes:1, Downvotes:0}
+db.Create(&poll)
+poll = Poll{Name:"Vue", Topic:"Voguish Vue",Src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/400px-Vue.js_Logo.svg.png", Upvotes:1, Downvotes:0}
+db.Create(&poll)
+poll = Poll{Name:"React",Topic:"Remarkable React",Src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",Upvotes: 1, Downvotes:0}
+db.Create(&poll)
+poll = Poll{Name:"Ember",Topic:"Excellent Ember",Src:"https://cdn-images-1.medium.com/max/741/1*9oD6P0dEfPYp3Vkk2UTzCg.png", Upvotes:1, Downvotes:0}
+db.Create(&poll)
+poll = Poll{Name:"Knockout",Topic:"Knightly Knockout",Src:"https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489710848/knockout-js.png", Upvotes:1, Downvotes:0}
+db.Create(&poll)
